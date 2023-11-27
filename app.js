@@ -78,7 +78,7 @@ app.use(express.static('public'))   // 정적파일들을 서비스할 폴더를
 
 /** MongoDB Connection */
 mongoose
-    .connect('mongodb+srv://horany83:Eodfks$$2023@cluster0.cuwdpyy.mongodb.net/?retryWrites=true&w=majority', {
+    .connect('mongo url', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
